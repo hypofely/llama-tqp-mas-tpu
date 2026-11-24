@@ -1,0 +1,140 @@
+{
+  "timestamp": "2026-11-20 01:29:37",
+  "tests": {
+    "health": {
+      "ok": true,
+      "cuda": true,
+      "model": true
+    },
+    "warmup_init": {
+      "ok": true,
+      "preview": "{\"native\":true,\"outputs\":{\"warmup\":\"Once upon a time there was a girl named Lily who loved to play outside with her dogO"
+    },
+    "create_agent_encoder": {
+      "ok": true,
+      "response": {
+        "id": 2,
+        "role": "encoder",
+        "seq_id": 2,
+        "status": "ok",
+        "uuid": ""
+      }
+    },
+    "create_agent_decoder": {
+      "ok": true,
+      "response": {
+        "id": 3,
+        "role": "decoder",
+        "seq_id": 3,
+        "status": "ok",
+        "uuid": ""
+      }
+    },
+    "create_agent_spawn": {
+      "ok": true,
+      "response": {
+        "id": 4,
+        "role": "spawn",
+        "seq_id": 4,
+        "status": "ok",
+        "uuid": ""
+      }
+    },
+    "chain_stop_after_prompt": {
+      "ok": true,
+      "output_preview": " The",
+      "timing": {
+        "generation_ms": 0.0,
+        "n_generated_tokens": 0,
+        "n_prefill_tokens": 0,
+        "prefill_ms": 0.0,
+        "prefill_tokens_per_sec": 0.0,
+        "tokens_per_sec": 0.0
+      }
+    },
+    "recreate_agent_decoder": {
+      "ok": true,
+      "response": {
+        "id": 1,
+        "role": "decoder",
+        "seq_id": 1,
+        "status": "ok",
+        "uuid": ""
+      }
+    },
+    "recreate_agent_spawn": {
+      "ok": true,
+      "response": {
+        "id": 2,
+        "role": "spawn",
+        "seq_id": 2,
+        "status": "ok",
+        "uuid": ""
+      }
+    },
+    "hidden_state": {
+      "ok": true,
+      "n_embd": 4096,
+      "len": 4096,
+      "sample": [
+        10.175691604614258,
+        12.458786010742188,
+        -14.274277687072754
+      ],
+      "nonzero": true
+    },
+    "project_to": {
+      "ok": true,
+      "response": {
+        "dst_agent": 1,
+        "src_agent": 0,
+        "status": "ok"
+      }
+    },
+    "embeddings_feed": {
+      "ok": true,
+      "response": {
+        "agent_id": 1,
+        "n_embd": 4096,
+        "n_tokens": 1,
+        "status": "ok"
+      }
+    },
+    "generate_from_latent_embeddings": {
+      "ok": true,
+      "output_preview": ""
+    },
+    "kv_clone_endpoint": {
+      "ok": true,
+      "response": {
+        "rc": 0,
+        "status": "cloned"
+      }
+    },
+    "dtas_multiagent": {
+      "ok": true,
+      "outputs": {
+        "decoder": ", I have a question about the following",
+        "spawn": ", I have a question about the following"
+      }
+    },
+    "latent_mas_strategy": {
+      "ok": true,
+      "outputs": {
+        "encoder": " to the world in python\nTo say"
+      }
+    },
+    "stream_events": {
+      "ok": true,
+      "kinds": [
+        "start",
+        "token",
+        "token",
+        "token",
+        "token",
+        "done"
+      ]
+    }
+  },
+  "errors": []
+}

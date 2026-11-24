@@ -1,0 +1,6 @@
+{
+  "mappings": {
+    "gemma-4": ["gemma-4", "gemma4", "gemma 4", "gemma-4-e4b", "gemma4e4b"],
+    "qwen-3.5": ["qwen-3.5", "qwen3.5", "qwen 3.5", "qwen3"]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-11-20 01:29:43",
+  "tests": {
+    "health": {
+      "ok": true,
+      "model_loaded": true
+    },
+    "generate": {
+      "ok": true,
+      "sec": 1.3,
+      "tok_per_sec": 24.6,
+      "text_preview": " But with the constraint that you can't use the word \"space\" or \"spaces\" anywher"
+    },
+    "generate_greedy": {
+      "ok": true,
+      "sec": 2.46,
+      "tok_per_sec": 26.0,
+      "text_preview": " Write about the universe. Write about the stars. Write about the planets. Write"
+    },
+    "mas_broadcast": {
+      "ok": true,
+      "sec": 1.32,
+      "output_preview": " But with the constraint that you can't use the word \"space\" or \"spaces\" anywher"
+    },
+    "mas_chain": {
+      "ok": true,
+      "sec": 2.64,
+      "planner_preview": " Photosynthesis is a process by which green plants, algae, a",
+      "executor_preview": "Okay, I need to explain photosynthesis. Let me start by reca"
+    },
+    "mas_dtas": {
+      "ok": true,
+      "sec": 3.03,
+      "outputs": {
+        "editor": " \n\nOkay, so I need to write about AI. Hmm, where do I start?",
+        "writer": " \n\nOkay, so I need to write about AI. Hmm, where do I start?"
+      }
+    },
+    "perf": {
+      "ok": true,
+      "32tok": {
+        "sec": 1.28,
+        "tok_per_sec": 25.0
+      },
+      "64tok": {
+        "sec": 2.41,
+        "tok_per_sec": 26.6
+      },
+      "128tok": {
+        "sec": 4.79,
+        "tok_per_sec": 26.7
+      }
+    }
+  },
+  "errors": []
+}

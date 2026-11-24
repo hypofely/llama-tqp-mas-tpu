@@ -1,0 +1,29 @@
+[
+ {
+  "arm": "single_weak",
+  "strict": 3,
+  "concluded": 10,
+  "lenient": 11,
+  "n": 12,
+  "wall_median": 33.123,
+  "tokens_median": 768.0
+ },
+ {
+  "arm": "single_allroles",
+  "strict": 4,
+  "concluded": 8,
+  "lenient": 11,
+  "n": 12,
+  "wall_median": 33.399,
+  "tokens_median": 768.0
+ },
+ {
+  "arm": "chain",
+  "strict": 12,
+  "concluded": 12,
+  "lenient": 12,
+  "n": 12,
+  "wall_median": 12.197,
+  "tokens_median": 281.0
+ }
+]

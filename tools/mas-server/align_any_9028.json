@@ -1,0 +1,26 @@
+{
+ "port": 9028,
+ "stride": 32,
+ "cache": "C:/+run/GPT_WEB/llama-tqp-mas-cpp/tools/mas-server/align_4b_instruct_s32.bin",
+ "compute_seconds": 616.6,
+ "http": 200,
+ "status": {
+  "busy": false,
+  "cache_loaded": false,
+  "cache_path": "",
+  "cache_status": "off",
+  "cross_progress": false,
+  "dtype": 0,
+  "full_vocab": false,
+  "is_identity": false,
+  "lowrank": 0,
+  "n_embd": 2560,
+  "parallel_threads": 4,
+  "rescale_norm": false,
+  "ridge": 1e-06,
+  "target_norm": 1.0901483432489456,
+  "use_alignment": true,
+  "vocab_stride": 32
+ },
+ "saved": true
+}

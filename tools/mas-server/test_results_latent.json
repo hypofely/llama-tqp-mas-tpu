@@ -1,0 +1,140 @@
+{
+  "timestamp": "2026-11-19 18:11:17",
+  "tests": {
+    "health": {
+      "ok": true,
+      "cuda": true,
+      "model": true
+    },
+    "warmup_init": {
+      "ok": true,
+      "preview": "{\"native\":true,\"outputs\":{\"warmup\":\" =\"},\"roles\":[\"warmup\"],\"stats\":{\"warmup\":{\"adapter_type\":0,\"max_tokens\":2,\"runtime_"
+    },
+    "create_agent_encoder": {
+      "ok": true,
+      "response": {
+        "id": 1,
+        "role": "encoder",
+        "seq_id": 1,
+        "status": "ok",
+        "uuid": ""
+      }
+    },
+    "create_agent_decoder": {
+      "ok": true,
+      "response": {
+        "id": 2,
+        "role": "decoder",
+        "seq_id": 2,
+        "status": "ok",
+        "uuid": ""
+      }
+    },
+    "create_agent_spawn": {
+      "ok": true,
+      "response": {
+        "id": 3,
+        "role": "spawn",
+        "seq_id": 3,
+        "status": "ok",
+        "uuid": ""
+      }
+    },
+    "chain_stop_after_prompt": {
+      "ok": true,
+      "output_preview": " The",
+      "timing": {
+        "generation_ms": 0.0,
+        "n_generated_tokens": 0,
+        "n_prefill_tokens": 0,
+        "prefill_ms": 0.0,
+        "prefill_tokens_per_sec": 0.0,
+        "tokens_per_sec": 0.0
+      }
+    },
+    "recreate_agent_decoder": {
+      "ok": true,
+      "response": {
+        "id": 1,
+        "role": "decoder",
+        "seq_id": 1,
+        "status": "ok",
+        "uuid": ""
+      }
+    },
+    "recreate_agent_spawn": {
+      "ok": true,
+      "response": {
+        "id": 2,
+        "role": "spawn",
+        "seq_id": 2,
+        "status": "ok",
+        "uuid": ""
+      }
+    },
+    "hidden_state": {
+      "ok": true,
+      "n_embd": 2048,
+      "len": 2048,
+      "sample": [
+        -41.683189392089844,
+        -33.116111755371094,
+        18.912626266479492
+      ],
+      "nonzero": true
+    },
+    "project_to": {
+      "ok": true,
+      "response": {
+        "dst_agent": 1,
+        "src_agent": 0,
+        "status": "ok"
+      }
+    },
+    "embeddings_feed": {
+      "ok": true,
+      "response": {
+        "agent_id": 1,
+        "n_embd": 2048,
+        "n_tokens": 1,
+        "status": "ok"
+      }
+    },
+    "generate_from_latent_embeddings": {
+      "ok": true,
+      "output_preview": ""
+    },
+    "kv_clone_endpoint": {
+      "ok": true,
+      "response": {
+        "rc": 0,
+        "status": "cloned"
+      }
+    },
+    "dtas_multiagent": {
+      "ok": true,
+      "outputs": {
+        "decoder": ": \u4f60\u597d\uff0c\u6211\u662f\u4f60\u7684\u52a9\u624b\uff0c",
+        "spawn": ": \u4f60\u597d\uff0c\u6211\u662f\u4f60\u7684\u52a9\u624b\uff0c"
+      }
+    },
+    "latent_mas_strategy": {
+      "ok": true,
+      "outputs": {
+        "encoder": ", how are you?  \u8bf7"
+      }
+    },
+    "stream_events": {
+      "ok": true,
+      "kinds": [
+        "start",
+        "token",
+        "token",
+        "token",
+        "token",
+        "done"
+      ]
+    }
+  },
+  "errors": []
+}

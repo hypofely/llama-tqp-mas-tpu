@@ -1,0 +1,240 @@
+{
+ "args": {
+  "port": 9026,
+  "ntok": 512,
+  "agents": 3,
+  "steps": 0,
+  "feedback": 1,
+  "limit": 6,
+  "arms": "latent_chain",
+  "json": "chain_ablation0.json"
+ },
+ "results": [
+  {
+   "arm": "latent_chain",
+   "correct": 6,
+   "n": 6,
+   "wall_median": 20.53,
+   "tokens_median": 512.0,
+   "latent_median": 0.0,
+   "rows": [
+    {
+     "q": 0,
+     "gold": 72,
+     "correct": true,
+     "wall_s": 20.28657341003418,
+     "text": "</think>\n\nPlan the calculation:  \n- Natalia sold 48 clips in April.  \n- In May, she sold half as many as in April, which is $ \\frac{48}{2} $.  \n- To find the total, we add the number of clips sold in April and May.\n\nCarry out the plan step by step:  \n- Clips sold in April: 48  \n- Clips sold in May: $ \\frac{48}{2} = 24 $  \n- Total clips sold: $ 48 + 24 = 72 $\n\nVerify the arithmetic:  \n- $ 48 + 24 = 72 $ is correct.\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>\n\nThe answer is 72.<|im_end|>",
+     "tokens": 512,
+     "latent": 0,
+     "positions": 625,
+     "per_agent": [
+      {
+       "a": 0,
+       "pos": 80,
+       "tok": 0,
+       "lat": 0,
+       "cloned": false,
+       "ms": 363
+      },
+      {
+       "a": 1,
+       "pos": 95,
+       "tok": 0,
+       "lat": 0,
+       "cloned": true,
+       "ms": 66
+      },
+      {
+       "a": 2,
+       "pos": 625,
+       "tok": 512,
+       "lat": 0,
+       "cloned": true,
+       "ms": 19831
+      }
+     ]
+    },
+    {
+     "q": 1,
+     "gold": 10,
+     "correct": true,
+     "wall_s": 20.558374166488647,
+     "text": "</think>\n\nWeng earns $12 per hour for babysitting. She babysat for 50 minutes.  \nTo find her earnings, we need to convert 50 minutes into hours and then multiply by her hourly rate.\n\nStep 1: Convert 50 minutes to hours.  \n$$\n50 \\text{ minutes} = \\frac{50}{60} \\text{ hours} = \\frac{5}{6} \\text{ hours}\n$$\n\nStep 2: Multiply the time in hours by the hourly rate.  \n$$\n\\text{Earnings} = \\frac{5}{6} \\times 12 = \\frac{60}{6} = 10\n$$\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe answer is 10.<|im_end|>\n\nThe",
+     "tokens": 512,
+     "latent": 0,
+     "positions": 618,
+     "per_agent": [
+      {
+       "a": 0,
+       "pos": 73,
+       "tok": 0,
+       "lat": 0,
+       "cloned": false,
+       "ms": 182
+      },
+      {
+       "a": 1,
+       "pos": 88,
+       "tok": 0,
+       "lat": 0,
+       "cloned": true,
+       "ms": 72
+      },
+      {
+       "a": 2,
+       "pos": 618,
+       "tok": 512,
+       "lat": 0,
+       "cloned": true,
+       "ms": 20296
+      }
+     ]
+    },
+    {
+     "q": 2,
+     "gold": 5,
+     "correct": true,
+     "wall_s": 20.68377161026001,
+     "text": "</think>\n\nPlan the calculation:  \n- The wallet costs $100.  \n- Betty has half of the money needed, so she has $100 \u00f7 2 = $50.  \n- Her parents give her $15.  \n- Her grandparents give twice as much as her parents, so they give $15 \u00d7 2 = $30.  \n- Total money Betty has now is $50 + $15 + $30.  \n- The amount of money Betty still needs is $100 \u2212 (total money she has).  \n\nCarry out the plan step by step and compute the intermediate values:  \n- Betty has $50.  \n- Parents give $15, so total becomes $50 + $15 = $65.  \n- Grandparents give $30, so total becomes $65 + $30 = $95.  \n- The amount Betty still needs is $100 \u2212 $95 = $5.  \n\nVerify the arithmetic and state the final answer as 'The answer is <number>.'  \nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is 5.<|im_end|>\n\nThe answer is ",
+     "tokens": 512,
+     "latent": 0,
+     "positions": 648,
+     "per_agent": [
+      {
+       "a": 0,
+       "pos": 103,
+       "tok": 0,
+       "lat": 0,
+       "cloned": false,
+       "ms": 256
+      },
+      {
+       "a": 1,
+       "pos": 118,
+       "tok": 0,
+       "lat": 0,
+       "cloned": true,
+       "ms": 90
+      },
+      {
+       "a": 2,
+       "pos": 648,
+       "tok": 512,
+       "lat": 0,
+       "cloned": true,
+       "ms": 20328
+      }
+     ]
+    },
+    {
+     "q": 3,
+     "gold": 624,
+     "correct": true,
+     "wall_s": 20.502381324768066,
+     "text": "</think>\n\nJames writes a 3-page letter to 2 different friends twice a week. Let's break this down step by step:\n\n1. **Pages per letter**: 3 pages  \n2. **Number of friends**: 2  \n3. **Number of letters per week**: 2 times a week  \n4. **Total pages per week**:  \n   $$\n   3 \\text{ pages/letter} \\times 2 \\text{ friends} \\times 2 \\text{ times/week} = 12 \\text{ pages/week}\n   $$\n\n5. **Number of weeks in a year**: 52 weeks\n\n6. **Total pages per year**:  \n   $$\n   12 \\text{ pages/week} \\times 52 \\text{ weeks/year} = 624 \\text{ pages/year}\n   $$\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\nThe answer is 624.<|im_end|>\n\n",
+     "tokens": 512,
+     "latent": 0,
+     "positions": 612,
+     "per_agent": [
+      {
+       "a": 0,
+       "pos": 67,
+       "tok": 0,
+       "lat": 0,
+       "cloned": false,
+       "ms": 177
+      },
+      {
+       "a": 1,
+       "pos": 82,
+       "tok": 0,
+       "lat": 0,
+       "cloned": true,
+       "ms": 69
+      },
+      {
+       "a": 2,
+       "pos": 612,
+       "tok": 512,
+       "lat": 0,
+       "cloned": true,
+       "ms": 20251
+      }
+     ]
+    },
+    {
+     "q": 4,
+     "gold": 35,
+     "correct": true,
+     "wall_s": 20.237161874771118,
+     "text": "</think>\n\nPlan the calculation:  \nWe are given the following information:  \n- There are 10 yellow flowers.  \n- There are 80% more purple flowers than yellow flowers.  \n- There are 25% as many green flowers as the total number of yellow and purple flowers.  \n\nWe need to find the total number of flowers in the garden.\n\nStep 1: Calculate the number of purple flowers.  \nPurple flowers = Yellow flowers + 80% of yellow flowers  \nPurple flowers = 10 + (80% of 10) = 10 + 8 = 18\n\nStep 2: Calculate the total number of yellow and purple flowers.  \nYellow + Purple = 10 + 18 = 28\n\nStep 3: Calculate the number of green flowers.  \nGreen flowers = 25% of (Yellow + Purple)  \nGreen flowers = 25% of 28 = 0.25 \u00d7 28 = 7\n\nStep 4: Calculate the total number of flowers.  \nTotal flowers = Yellow + Purple + Green = 10 + 18 + 7 = 35\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is 35.<|im_end|>\n\nThe answer is ",
+     "tokens": 512,
+     "latent": 0,
+     "positions": 652,
+     "per_agent": [
+      {
+       "a": 0,
+       "pos": 107,
+       "tok": 0,
+       "lat": 0,
+       "cloned": false,
+       "ms": 257
+      },
+      {
+       "a": 1,
+       "pos": 122,
+       "tok": 0,
+       "lat": 0,
+       "cloned": true,
+       "ms": 74
+      },
+      {
+       "a": 2,
+       "pos": 652,
+       "tok": 512,
+       "lat": 0,
+       "cloned": true,
+       "ms": 19892
+      }
+     ]
+    },
+    {
+     "q": 5,
+     "gold": 3,
+     "correct": true,
+     "wall_s": 21.245200872421265,
+     "text": "</think>\n\nPlan the calculation: list the quantities and the operations needed. Do not compute yet.  \n- The robe requires 2 bolts of blue fiber.  \n- It requires half that amount in white fiber, which is $ \\frac{1}{2} \\times 2 = 1 $ bolt of white fiber.  \n- To find the total number of bolts, add the bolts of blue fiber and white fiber: $ 2 + 1 $.  \n\nCarry out the plan step by step and compute the intermediate values.  \n- Blue fiber: 2 bolts  \n- White fiber: $ \\frac{1}{2} \\times 2 = 1 $ bolt  \n- Total bolts: $ 2 + 1 = 3 $  \n\nVerify the arithmetic and state the final answer as 'The answer is <number>.  \nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.<|im_end|>\n\nThe answer is 3.",
+     "tokens": 512,
+     "latent": 0,
+     "positions": 612,
+     "per_agent": [
+      {
+       "a": 0,
+       "pos": 67,
+       "tok": 0,
+       "lat": 0,
+       "cloned": false,
+       "ms": 188
+      },
+      {
+       "a": 1,
+       "pos": 82,
+       "tok": 0,
+       "lat": 0,
+       "cloned": true,
+       "ms": 74
+      },
+      {
+       "a": 2,
+       "pos": 612,
+       "tok": 512,
+       "lat": 0,
+       "cloned": true,
+       "ms": 20973
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

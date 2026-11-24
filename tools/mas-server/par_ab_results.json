@@ -1,0 +1,30 @@
+[
+ {
+  "threads": 1,
+  "wall_s": 5.59,
+  "ms_per_step": 91.75,
+  "distinct_outputs": 1,
+  "text": "\n\nBased on the provided metrics, here's an analysis and a potential fix for the p99 latency issue:\n\n**Metrics Summary:**\n- p50: 42 ms (median latency)\n- p99: 1"
+ },
+ {
+  "threads": 2,
+  "wall_s": 4.45,
+  "ms_per_step": 74.03,
+  "distinct_outputs": 1,
+  "text": "\n\nBased on the provided metrics, here's an analysis and a potential fix for the p99 latency issue:\n\n**Metrics Summary:**\n- p50: 42 ms (median latency)\n- p99: 1"
+ },
+ {
+  "threads": 4,
+  "wall_s": 4.17,
+  "ms_per_step": 64.03,
+  "distinct_outputs": 1,
+  "text": "\n\nBased on the provided metrics, here's an analysis and a potential fix for the p99 latency issue:\n\n**Metrics Summary:**\n- p50: 42 ms (median latency)\n- p99: 1"
+ },
+ {
+  "threads": 8,
+  "wall_s": 4.131,
+  "ms_per_step": 64.28,
+  "distinct_outputs": 1,
+  "text": "\n\nBased on the provided metrics, here's an analysis and a potential fix for the p99 latency issue:\n\n**Metrics Summary:**\n- p50: 42 ms (median latency)\n- p99: 1"
+ }
+]

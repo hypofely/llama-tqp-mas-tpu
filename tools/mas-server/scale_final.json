@@ -1,0 +1,185 @@
+{
+ "args": {
+  "port": 9026,
+  "ntok": 768,
+  "agents": "5,7",
+  "steps": "0",
+  "set": "hard",
+  "json": "scale_final.json"
+ },
+ "results": [
+  {
+   "arm": "single",
+   "agents": 1,
+   "steps": 0,
+   "correct": 1,
+   "n": 6,
+   "wall_median": 31.381,
+   "tokens_median": 768.0,
+   "rows": [
+    {
+     "q": 0,
+     "gold": 60,
+     "correct": false,
+     "wall_s": 32.77,
+     "tokens": 768
+    },
+    {
+     "q": 1,
+     "gold": 40,
+     "correct": false,
+     "wall_s": 32.609,
+     "tokens": 768
+    },
+    {
+     "q": 2,
+     "gold": 2,
+     "correct": false,
+     "wall_s": 31.162,
+     "tokens": 768
+    },
+    {
+     "q": 3,
+     "gold": 192,
+     "correct": false,
+     "wall_s": 30.978,
+     "tokens": 768
+    },
+    {
+     "q": 4,
+     "gold": 8,
+     "correct": true,
+     "wall_s": 31.466,
+     "tokens": 768
+    },
+    {
+     "q": 5,
+     "gold": 16000,
+     "correct": false,
+     "wall_s": 31.296,
+     "tokens": 768
+    }
+   ]
+  },
+  {
+   "arm": "chain",
+   "agents": 5,
+   "steps": 0,
+   "correct": 6,
+   "n": 6,
+   "wall_median": 14.49,
+   "tokens_median": 350.5,
+   "latent_median": 0.0,
+   "rows": [
+    {
+     "q": 0,
+     "gold": 60,
+     "correct": true,
+     "wall_s": 12.387,
+     "tokens": 303,
+     "latent": 0
+    },
+    {
+     "q": 1,
+     "gold": 40,
+     "correct": true,
+     "wall_s": 16.593,
+     "tokens": 398,
+     "latent": 0
+    },
+    {
+     "q": 2,
+     "gold": 2,
+     "correct": true,
+     "wall_s": 18.19,
+     "tokens": 455,
+     "latent": 0
+    },
+    {
+     "q": 3,
+     "gold": 192,
+     "correct": true,
+     "wall_s": 8.43,
+     "tokens": 206,
+     "latent": 0
+    },
+    {
+     "q": 4,
+     "gold": 8,
+     "correct": true,
+     "wall_s": 18.948,
+     "tokens": 482,
+     "latent": 0
+    },
+    {
+     "q": 5,
+     "gold": 16000,
+     "correct": true,
+     "wall_s": 10.92,
+     "tokens": 259,
+     "latent": 0
+    }
+   ]
+  },
+  {
+   "arm": "chain",
+   "agents": 7,
+   "steps": 0,
+   "correct": 5,
+   "n": 6,
+   "wall_median": 19.847,
+   "tokens_median": 469.5,
+   "latent_median": 0.0,
+   "rows": [
+    {
+     "q": 0,
+     "gold": 60,
+     "correct": true,
+     "wall_s": 17.511,
+     "tokens": 400,
+     "latent": 0
+    },
+    {
+     "q": 1,
+     "gold": 40,
+     "correct": true,
+     "wall_s": 32.48,
+     "tokens": 768,
+     "latent": 0
+    },
+    {
+     "q": 2,
+     "gold": 2,
+     "correct": true,
+     "wall_s": 22.183,
+     "tokens": 539,
+     "latent": 0
+    },
+    {
+     "q": 3,
+     "gold": 192,
+     "correct": false,
+     "wall_s": 32.448,
+     "tokens": 768,
+     "latent": 0
+    },
+    {
+     "q": 4,
+     "gold": 8,
+     "correct": true,
+     "wall_s": 13.618,
+     "tokens": 311,
+     "latent": 0
+    },
+    {
+     "q": 5,
+     "gold": 16000,
+     "correct": true,
+     "wall_s": 15.926,
+     "tokens": 385,
+     "latent": 0
+    }
+   ]
+  }
+ ]
+}

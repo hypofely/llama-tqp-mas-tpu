@@ -1,0 +1,125 @@
+{
+ "per_unit": {
+  "ms_per_token": 49.53125,
+  "ms_per_latent_step": 72.125
+ },
+ "runs": [
+  {
+   "tag": "text32",
+   "wall_s": 1.585,
+   "http": 200,
+   "n_tokens": 32,
+   "n_latent": 0,
+   "n_positions": 177,
+   "latent_ms_total": 0,
+   "latent_steps_counted": 0,
+   "avg_ms_per_step": 0.0,
+   "words": 23,
+   "text": " The fix should be a specific action that can be taken to improve the p99 latency.\nThe p99 latency of 1900 ms is"
+  },
+  {
+   "tag": "latent32",
+   "wall_s": 2.593,
+   "http": 200,
+   "n_tokens": 0,
+   "n_latent": 32,
+   "n_positions": 177,
+   "latent_ms_total": 2308,
+   "latent_steps_counted": 32,
+   "avg_ms_per_step": 72.125,
+   "words": 0,
+   "text": ""
+  },
+  {
+   "tag": "L8",
+   "wall_s": 4.58,
+   "http": 200,
+   "n_tokens": 96,
+   "n_latent": 8,
+   "n_positions": 249,
+   "latent_ms_total": 628,
+   "latent_steps_counted": 8,
+   "avg_ms_per_step": 78.5,
+   "words": 62,
+   "text": "\n\n### **Analysis of the p99 Latency Bottleneck**\n\nThe **p99 latency** (99th percentile latency) is **1900 ms**, which is significantly higher than the **mean query time of 6 ms** and the **p50 latency of 42 ms**. This indicates that **a small percentage of requests are experiencing extremely long delays**, which is the primary concern for user experience and system reliability.\n\n---\n\n### **Most"
+  },
+  {
+   "tag": "L16",
+   "wall_s": 5.12,
+   "http": 200,
+   "n_tokens": 96,
+   "n_latent": 16,
+   "n_positions": 257,
+   "latent_ms_total": 1213,
+   "latent_steps_counted": 16,
+   "avg_ms_per_step": 75.8125,
+   "words": 55,
+   "text": "\n\n### **Analysis of the p99 Latency Bottleneck**\n\nThe **p99 latency** (99th percentile latency) is **1900 ms**, which is significantly higher than the **mean query time of 6 ms** and the **p50 latency of 42 ms**. This indicates that **99% of requests are completed in under 1900 ms**, but **1% of requests are taking significantly longer**"
+  },
+  {
+   "tag": "L32",
+   "wall_s": 6.107,
+   "http": 200,
+   "n_tokens": 96,
+   "n_latent": 32,
+   "n_positions": 273,
+   "latent_ms_total": 2302,
+   "latent_steps_counted": 32,
+   "avg_ms_per_step": 71.9375,
+   "words": 58,
+   "text": "\n\n### **Analysis of the p99 Latency Bottleneck**\n\nThe **p99 latency** (99th percentile latency) is **1900 ms**, which is significantly higher than the **mean query time of 6 ms** and the **p50 latency of 42 ms**. This indicates that **99% of requests are fast, but 1% are extremely slow**, which is a classic sign of a **tail latency bottleneck"
+  },
+  {
+   "tag": "L64",
+   "wall_s": 9.196,
+   "http": 200,
+   "n_tokens": 96,
+   "n_latent": 64,
+   "n_positions": 305,
+   "latent_ms_total": 5241,
+   "latent_steps_counted": 64,
+   "avg_ms_per_step": 81.890625,
+   "words": 53,
+   "text": "\n\n### Analysis of the p99 Latency Bottleneck\n\nThe **p99 latency** (99th percentile latency) is **1900 ms**, which is significantly higher than the **p50 latency** of **42 ms**. This indicates that **99% of requests are completed in under 42 ms**, but **1% of requests take over 1900 ms**, which is **45 times longer** than"
+  },
+  {
+   "tag": "pipe_L0",
+   "wall_s": 2.889,
+   "http": 200,
+   "n_tokens": 72,
+   "n_latent": 0,
+   "n_positions": 207,
+   "latent_ms_total": 0,
+   "latent_steps_counted": 0,
+   "avg_ms_per_step": 0.0,
+   "words": 51,
+   "text": "The p99 latency of 1900 ms is significantly higher than the p50 of 42 ms, indicating a problem with the tail of the latency distribution. Let's analyze the given metrics to identify the most likely cause:\n\n1. **PostgreSQL Connection Pool Size (10)**: A small connection pool size could lead to contention"
+  },
+  {
+   "tag": "pipe_L4",
+   "wall_s": 4.105,
+   "http": 200,
+   "n_tokens": 72,
+   "n_latent": 16,
+   "n_positions": 223,
+   "latent_ms_total": 1169,
+   "latent_steps_counted": 16,
+   "avg_ms_per_step": 73.0625,
+   "words": 48,
+   "text": "\n\nThe most likely cause of the p99 tail latency (1900 ms) in this system is **\n\nThe most likely cause of the p99 tail latency (1900 ms) in this system is **\n\n**Root Cause:**\nThe p99 latency is significantly higher than the mean query time (6 ms) and"
+  },
+  {
+   "tag": "fulltext",
+   "wall_s": 3.801,
+   "http": 200,
+   "n_tokens": 96,
+   "n_latent": 0,
+   "n_positions": 241,
+   "latent_ms_total": 0,
+   "latent_steps_counted": 0,
+   "avg_ms_per_step": 0.0,
+   "words": 69,
+   "text": " The fix should be a specific action that can be taken to improve the p99 latency.\nThe p99 latency of 1900 ms is significantly higher than the p50 of 42 ms, indicating a severe tail latency issue. The key factors to consider are:\n\n1. **PostgreSQL Connection Pooling**: With only 10 connections in the pool and 8 worker threads, there's a risk of connection contention. If the application is making"
+  }
+ ]
+}

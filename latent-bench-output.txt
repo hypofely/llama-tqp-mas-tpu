@@ -1,0 +1,17 @@
+=== LatentMAS vs TextMAS Benchmark ===
+Task: 2 + 2 = ?
+Max tokens: 48
+----------------------------------------------------------------------
+Strategy                  |  Time (ms) | Throughput |  Speedup
+----------------------------------------------------------------------
+Running TextMAS baseline...
+TextMAS                   |    12254.6 ms |        0.0 t/s |     1.00x
+Running LatentMAS with 20 steps...
+LatentMAS_20steps         |       50.4 ms |        0.0 t/s |   243.08x
+Running LatentMAS with 40 steps...
+LatentMAS_40steps         |       54.9 ms |        0.0 t/s |   223.25x
+Running LatentMAS with 60 steps...
+LatentMAS_60steps         |       58.2 ms |        0.0 t/s |   210.69x
+Running LatentMAS with 80 steps...
+LatentMAS_80steps         |       47.4 ms |        0.0 t/s |   258.57x
+----------------------------------------------------------------------

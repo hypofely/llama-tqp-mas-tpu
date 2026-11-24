@@ -1,0 +1,2 @@
+<|think|>
+Think with maximum depth, rigorously verify every step, and explore all possible angles exhaustively.

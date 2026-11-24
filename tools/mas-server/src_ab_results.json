@@ -1,0 +1,98 @@
+[
+ {
+  "source": 0,
+  "label": "layer0_tap(fork)",
+  "depth": 0,
+  "correct": 1,
+  "n": 6,
+  "wall_s": 2.769,
+  "texts": [
+   " Let's see, so in April she sold 48 clips. Then in May, she sold half as many as April. So that would be 48 divided by 2. Let me do that calculation. 48 divided by 2 is 24. So in May, she sold 2",
+   " - Brainly.com\nprofile\nprofile\njosephine123\njosephine123\n03/24/2021\nMathematics\nHigh School\nanswer\nanswered\nWeng earns $12 an hour for babysitting. Yesterday she did 50",
+   " Let's break down the problem step by step.\n\nFirst, we need to determine how much money Betty has already. The problem states that she has only half of the money she needs for the wallet. Since the wallet costs $100, half of that is $50. So, Betty currently has $5",
+   " To solve this problem, we need to determine how many pages James writes in a year. Let's break it down step by step.\n\nFirst, we know that James writes a 3-page letter to 2 different friends. So, for each writing session, he writes 3 pages per friend times 2 friends.",
+   " Let's break this down step by step.\n\nOkay, let me try to figure out how many flowers Mark has in his garden. So, he has three colors: yellow, purple, and green. Let me start by writing down what I know.\n\nFirst, there are 10 yellow flowers. Then, the problem",
+   " Also, if the robe is 100% wool, how many bolts of each color are needed? What is the value of the expression 2 + 2 * 2? What is the value of the expression 2 + 2 * 2 + 2 * 2? What is the value"
+  ]
+ },
+ {
+  "source": 0,
+  "label": "layer0_tap(fork)",
+  "depth": 4,
+  "correct": 0,
+  "n": 6,
+  "wall_s": 2.859,
+  "texts": [
+   "\n\nNatalia sold clips to 48 friends in April. In May, she sold half as many clips as she did in April. To find the total number of clips sold in April and May, we need to calculate the number of clips sold in May and then add that to the number sold in April.\n\n",
+   "\n\nOkay, let's see. Weng earns $12 an hour for babysitting. She did 50 minutes of babysitting yesterday. I need to figure out how much she earned. Hmm, so first, I need to convert the time she worked into hours because her rate is per hour. \n\nWait",
+   "\n\nLet's break down the problem step by step to find out how much more Betty needs to buy the wallet.\n\n---\n\n### Step 1: Determine the total cost of the wallet\nThe wallet costs **$100**.\n\n---\n\n### Step 2: Find out how much Betty already has\nBetty has",
+   "\n\nOkay, let's see. James writes a 3-page letter to 2 different friends twice a week. I need to figure out how many pages he writes in a year. Hmm, let me break this down step by step.\n\nFirst, let me understand the problem. He writes to two friends, each time",
+   "\n\nOkay, let's see. Mark has a garden with flowers of three different colors: yellow, purple, and green. The problem says there are 10 yellow flowers. Then it mentions that there are 80% more purple flowers than yellow ones. Then, green flowers are 25% as many",
+   "\n\nOkay, let's see. The problem says a robe takes 2 bolts of blue fiber and half that much white fiber. So, I need to figure out the total number of bolts required. Hmm, let me break it down step by step.\n\nFirst, the blue fiber part: it says 2 bolts."
+  ]
+ },
+ {
+  "source": 0,
+  "label": "layer0_tap(fork)",
+  "depth": 16,
+  "correct": 0,
+  "n": 6,
+  "wall_s": 3.736,
+  "texts": [
+   "\n\nNatalia sold clips to 48 friends in April. In May, she sold half as many clips as she did in April. To find the total number of clips she sold in April and May, we need to calculate the number of clips sold in May and then add that to the number sold in April",
+   "\n\nTo determine how much Weng earned, we need to calculate her earnings based on the time she spent babysitting and her hourly rate.\n\nFirst, we know that Weng earns $12 per hour. She babysat for 50 minutes. Since there are 60 minutes in an hour, we can",
+   "\n\nLet's break down the problem step by step to find out how much more Betty needs for the wallet.\n\n1. **Total cost of the wallet**: $100  \n2. **Betty has half of the money she needs**:  \n   $ \\frac{1}{2} \\times 10",
+   "\n\nTo determine how many pages James writes in a year, we need to break the problem down into smaller, manageable parts and then combine the results.\n\n---\n\n### Step 1: Determine the number of letters written per week\n\nJames writes a **3-page letter** to **2 different friends** **twice a week",
+   "\n\nOkay, let's see. Mark has a garden with flowers of three different colors: yellow, purple, and green. The problem says there are 10 yellow flowers. Then it mentions there are 80% more purple flowers than yellow ones. Then there are only 25% as many green flowers",
+   "\n\nOkay, let's see. The problem says a robe takes 2 bolts of blue fiber and half that much white fiber. I need to find the total number of bolts required. Hmm, let me break this down step by step.\n\nFirst, the blue fiber part: it says 2 bolts. So that's"
+  ]
+ },
+ {
+  "source": 1,
+  "label": "final_layer(upstream)",
+  "depth": 0,
+  "correct": 1,
+  "n": 6,
+  "wall_s": 2.741,
+  "texts": [
+   " Let's see, so in April she sold 48 clips. Then in May, she sold half as many as April. So that would be 48 divided by 2. Let me do that calculation. 48 divided by 2 is 24. So in May, she sold 2",
+   " - Brainly.com\nprofile\nprofile\njosephine123\njosephine123\n03/24/2021\nMathematics\nHigh School\nanswer\nanswered\nWeng earns $12 an hour for babysitting. Yesterday she did 50",
+   " Let's break down the problem step by step.\n\nFirst, we need to determine how much money Betty has already. The problem states that she has only half of the money she needs for the wallet. Since the wallet costs $100, half of that is $50. So, Betty currently has $5",
+   " To solve this problem, we need to determine how many pages James writes in a year. Let's break it down step by step.\n\nFirst, we know that James writes a 3-page letter to 2 different friends. So, for each writing session, he writes 3 pages per friend times 2 friends.",
+   " Let's break this down step by step.\n\nOkay, let me try to figure out how many flowers Mark has in his garden. So, he has three colors: yellow, purple, and green. Let me start by writing down what I know.\n\nFirst, there are 10 yellow flowers. Then, the problem",
+   " Also, if the robe is 100% wool, how many bolts of each color are needed? What is the value of the expression 2 + 2 * 2? What is the value of the expression 2 + 2 * 2 + 2 * 2? What is the value"
+  ]
+ },
+ {
+  "source": 1,
+  "label": "final_layer(upstream)",
+  "depth": 4,
+  "correct": 0,
+  "n": 6,
+  "wall_s": 2.974,
+  "texts": [
+   "\n\nOkay, let's see. Natalia sold clips to 48 friends in April. Then in May, she sold half as many clips. The question is asking how many clips she sold altogether in April and May. \n\nFirst, I need to figure out how many clips she sold in May. The problem says",
+   "\n\nOkay, let me try to figure out how much Weng earned for babysitting yesterday. So, she earns $12 an hour, right? And she did 50 minutes of babysitting. Hmm, so I need to calculate her earnings based on the time she worked.\n\nFirst, I know that her",
+   "\n\nOkay, let's see. Betty needs $100 for a new wallet. She has half of the money she needs. So first, I need to figure out how much she already has. If the wallet costs $100, then half of that would be $50. So Betty has $",
+   "\n\nOkay, let's see. James writes a 3-page letter to 2 different friends twice a week. I need to figure out how many pages he writes in a year. Hmm, let me break this down step by step.\n\nFirst, let me understand the problem. He writes to two friends, each time",
+   "\n\nOkay, let me try to figure out how many flowers Mark has in his garden. So, he has three colors: yellow, purple, and green. Let me break down the information step by step.\n\nFirst, it says there are 10 yellow flowers. Got that. Then, there are 80",
+   "\n\nOkay, let's see. The problem says a robe takes 2 bolts of blue fiber and half that much white fiber. So, I need to figure out the total number of bolts required. Hmm, let me break it down step by step.\n\nFirst, the blue fiber part: it says 2 bolts."
+  ]
+ },
+ {
+  "source": 1,
+  "label": "final_layer(upstream)",
+  "depth": 16,
+  "correct": 0,
+  "n": 6,
+  "wall_s": 3.832,
+  "texts": [
+   "\n\nNatalia sold clips to 48 friends in April. In May, she sold half as many clips as she did in April. To find the total number of clips she sold in April and May, we need to calculate the number of clips sold in May and then add it to the number sold in April",
+   "\n\nOkay, let's see. Weng earns $12 an hour for babysitting. She did 50 minutes of babysitting yesterday. I need to figure out how much she earned. Hmm, so first, I should probably convert the time she worked into hours because her rate is per hour. \n\nWait",
+   "\n\nLet's break down the problem step by step to find out how much more money Betty needs for the wallet.\n\n---\n\n### Step 1: Determine the total cost of the wallet\nThe wallet costs **$100**.\n\n---\n\n### Step 2: Find out how much Betty already has\nBetty has",
+   "\n\nOkay, let's see. James writes a 3-page letter to 2 different friends twice a week. I need to figure out how many pages he writes in a year. Hmm, let me break this down step by step.\n\nFirst, let me make sure I understand the problem correctly. He writes letters to",
+   "\n\nLet's break down the problem step by step to find the total number of flowers in Mark's garden.\n\n---\n\n### Step 1: Understand the given information\n\n- **Yellow flowers**: 10\n- **Purple flowers**: 80% more than yellow\n- **Green flowers**: 25%",
+   "\n\nOkay, let's see. The problem says a robe takes 2 bolts of blue fiber and half that much white fiber. I need to find the total number of bolts required. Hmm, let me break this down step by step.\n\nFirst, the blue fiber is 2 bolts. Then, the white fiber is"
+  ]
+ }
+]
